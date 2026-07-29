@@ -560,8 +560,8 @@ export default function Home() {
                 and values exert pressure in different directions.
               </p>
               <div className="hero-actions">
-                <button className="primary" onClick={() => setStage("profile")}>Enter the lab <span>→</span></button>
-                <button className="text-button" onClick={() => setStage("research")}>Read the research frame</button>
+                <button className="primary" onClick={() => window.location.href="/about"}>Enter the lab <span>→</span></button>
+                <button className="text-button" onClick={() => window.location.href="/research-notes"}>Read the research frame</button>
               </div>
               <p className="privacy"><span>◌</span> No account. Responses remain on this device.</p>
             </div>
