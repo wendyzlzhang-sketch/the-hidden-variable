@@ -3,7 +3,7 @@ export default function ResearchNotes() {
     <main className="min-h-screen bg-black text-white p-12">
 
       <h1 className="text-5xl mb-8">
-        Research Notes
+        Why do people optimize for things they cannot see?
       </h1>
 
       <p className="max-w-3xl text-gray-300">
