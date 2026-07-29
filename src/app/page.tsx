@@ -544,7 +544,12 @@ export default function Home() {
         </button>
         <nav aria-label="Primary navigation">
           <button onClick={() => setStage("intro")} className={stage === "intro" ? "active" : ""}>Study</button>
-          <button onClick={() => setStage("research")} className={stage === "research" ? "active" : ""}>Research notes</button>
+          <button onClick={() => <button 
+  onClick={() => window.location.href="/research-notes"}
+  className=""
+>
+  Research notes
+</button>
           <span className="status"><b /> Protocol 01</span>
         </nav>
       </header>
