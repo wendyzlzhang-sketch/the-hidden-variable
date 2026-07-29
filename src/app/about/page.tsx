@@ -61,10 +61,31 @@ export default function About() {
 
 
         </section>
+ </div>
 
-      </div>
+    </section>
 
-    </main>
-  )
-}
-          
+
+    <section className="mt-12">
+
+      <h2 className="text-2xl mb-3">
+        Researcher Statement
+      </h2>
+
+      <p className="text-gray-400">
+        I created The Hidden Variable to explore a question:
+        when choices appear equally rational, what hidden factors
+        shape human decisions?
+
+        This project examines how incentives, identity,
+        uncertainty, and personal values influence the way
+        people interpret and respond to choices.
+      </p>
+
+    </section>
+
+
+  </div>
+
+
+</main>
