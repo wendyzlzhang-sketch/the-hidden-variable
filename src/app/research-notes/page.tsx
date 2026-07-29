@@ -58,6 +58,7 @@ export default function ResearchNotes() {
     Why do people optimize for invisible variables?
   </p>
 
+        
   <p>
     02 — Framework Design
     <br />
