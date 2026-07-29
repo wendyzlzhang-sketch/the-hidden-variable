@@ -2,6 +2,18 @@ export default function About() {
   return (
     <main className="min-h-screen bg-black text-white p-12">
 
+<nav className="flex justify-between mb-20">
+  <div className="tracking-[0.3em]">
+    THE-HIDDEN-VARIABLE
+  </div>
+
+  <div className="flex gap-8 text-gray-400">
+    <a href="/">Study</a>
+    <a href="/research-notes">Research notes</a>
+    <a href="/about">About</a>
+  </div>
+</nav>
+
       <div className="max-w-5xl">
 
         <p className="text-lime-400 tracking-[0.3em] text-sm mb-8">
@@ -24,7 +36,7 @@ export default function About() {
 
           <div>
             <h2 className="text-2xl mb-3">
-              Research Motivation
+              01 — Research Motivation
             </h2>
 
             <p className="text-gray-400">
