@@ -47,7 +47,36 @@ export default function ResearchNotes() {
             Decisions reveal not only preferences,
             but also personal beliefs and identity.
           </p>
-        </section>
+        <section>
+  <h2 className="text-2xl">
+    Research Process
+  </h2>
+
+  <p>
+    01 — Question Formation
+    <br />
+    Why do people optimize for invisible variables?
+  </p>
+
+  <p>
+    02 — Framework Design
+    <br />
+    Combining behavioral economics, psychology,
+    and decision theory.
+  </p>
+
+  <p>
+    03 — Interactive Experiment
+    <br />
+    Building scenarios where users face competing incentives.
+  </p>
+
+  <p>
+    04 — Reflection
+    <br />
+    Studying patterns rather than searching for one correct answer.
+  </p>
+</section>
 
       </div>
 
